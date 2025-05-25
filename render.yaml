@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flask-gpt-agent
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
